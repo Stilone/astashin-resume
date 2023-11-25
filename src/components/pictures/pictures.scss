@@ -1,0 +1,122 @@
+@media only screen and (min-width: 900px) {
+.pictures-container {
+  width: 50vw;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  .pictures {
+    box-sizing: border-box;
+    padding: 5px;
+    height: 100%; // Устанавливаем высоту блока в 100%
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .first-image {
+    z-index: 1;
+    width: 50%;
+
+  }
+  .second-image {
+    z-index: 1;
+    width: 50%;
+    
+  }
+
+  .third-image {
+    z-index: 1;
+    width: 50%;
+    
+  }
+}
+}
+
+@media only screen and (max-width: 900px) {
+  .pictures-container {
+    width: 98vw;
+    height: 89%;
+    display: flex;
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    .pictures {
+      box-sizing: border-box;
+      padding: 5px;
+      height: 100%; // Устанавливаем высоту блока в 100%
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .first-image {
+      z-index: 1;
+      width: 50%;
+    }
+    .second-image {
+      z-index: 1;
+      width: 50%;
+      
+    }
+  
+    .third-image {
+      z-index: 1;
+      width: 50%;
+      
+    }
+  }
+  }
+
+@media only screen and (max-width: 450px) {
+  .pictures-container {
+    width: 98vw;
+    height: 640px;
+    display: flex;
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    .pictures {
+      box-sizing: border-box;
+      padding: 5px;
+      height: 100%; // Устанавливаем высоту блока в 100%
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    
+    .first-image {
+      z-index: 2;
+      width: 100%;
+      height: 250px;
+      position: absolute;
+      top: 2px;
+    }
+    .second-image {
+      z-index: 1;
+      width: 30%;
+      height: 330px;
+      right: 0px;
+      top: 240px;
+      position: absolute;
+    }
+    
+    .third-image {
+      z-index: 1;
+      width: 100%;
+      height: 140px;
+      position: absolute;
+      bottom: -65px;
+    }
+  }
+}

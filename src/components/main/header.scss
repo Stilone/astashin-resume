@@ -1,0 +1,106 @@
+@media only screen and (min-width: 943px) {
+.header {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    top: 20%;
+    .name {
+        color: #D6FB41;
+        font-size: 120px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 3; /* Устанавливаем значение z-index больше, чем у .post */
+        top: 10px;
+    }
+
+    .post {
+        
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        position: absolute;
+        z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
+        top: 110px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+    }
+}
+}
+
+@media only screen and (max-width: 943px) {
+    .header {
+        width: 100%;
+        height: 630px;
+        position: relative;
+        top: 20%;
+        .name {
+            color: #D6FB41;
+            font-size: 120px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 3; /* Устанавливаем значение z-index больше, чем у .post */
+            top: 10px;
+        }
+    
+        .post {
+            
+            color: white;
+            font-size: 30px;
+            font-weight: 500;
+            position: fixed;
+            z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
+            top: 255px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .header {
+        width: 100%;
+        height: 630px;
+        position: relative;
+        top: 20%;
+        .name {
+            color: #D6FB41;
+            font-size: 100px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 3; /* Устанавливаем значение z-index больше, чем у .post */
+            top: 10px;
+        }
+    
+        .post {
+            
+            color: white;
+            font-size: 30px;
+            font-weight: 500;
+            position: fixed;
+            z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
+            top: 235px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header {
+        width: 100%;
+        height: 630px;
+        position: relative;
+        top: 32%;
+        .name {
+            color: #D6FB41;
+            font-size: 60px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 3; /* Устанавливаем значение z-index больше, чем у .post */
+            top: 10px;
+        }
+    
+        .post {
+            color: white;
+            font-size: 30px;
+            font-weight: 500;
+            position: fixed;
+            z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
+            top: 355px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+        }
+    }
+}
