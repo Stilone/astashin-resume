@@ -22,11 +22,9 @@
 
 @media only screen and (max-width: 450px) {
     .linkIcons {
-        position: absolute;
-        z-index: 3; /* Устанавливаем значение z-index меньше, чем у .post и .name */
-        top: 250px;
+        
         .linkIcon {
-            margin-right: 34px;
+            margin-right: 10px; 
         }
     } 
 }

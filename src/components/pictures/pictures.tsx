@@ -16,7 +16,7 @@ export const Pictures = () => {
             glareColor="#161616"
             glarePosition="all"
             >
-          <img src={`../../../img/${item}.jpg`} alt={`picture-${index}`} />
+          <img src={`../../../img/${item}.jpg`} className={item} alt={`picture-${index}`} />
           </Tilt>
         
         

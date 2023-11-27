@@ -2,36 +2,37 @@ import Marquee from "react-fast-marquee";
 import { tech } from "../../../__mock__/mock-icons";
 import { techList } from "../../../__types__/globalTypes";
 import "./techList.scss"
+import { useEffect, useState } from "react";
 
 //Thanks for the fantastic text marquee library! Find it here: https://www.react-fast-marquee.com/documentation/#gradient
-// type Direction = "left" | "up" | "right" | "down";
+type Gradient = true | false;
 
 export const TechList = () => {
-    // const [direction, setDirection] = useState<Direction>("left");
+    const [gradient, setGradient] = useState<Gradient>(true);
 
-    // useEffect(() => {
-    //     const handleResize = () => {
-    //       if (window.innerWidth < 900) {
-    //         setDirection("down");
-    //       } else {
-    //         setDirection("left");
-    //       }
-    //     };
+    useEffect(() => {
+        const handleResize = () => {
+          if (window.innerWidth < 450) {
+            setGradient(false);
+          } else {
+            setGradient(true);
+          }
+        };
     
-    //     // Вызываем функцию при загрузке и изменении размера окна
-    //     handleResize();
+        // Вызываем функцию при загрузке и изменении размера окна
+        handleResize();
     
-    //     window.addEventListener("resize", handleResize);
+        window.addEventListener("resize", handleResize);
     
-    //     // Удаляем обработчик события при размонтировании компонента
-    //     return () => {
-    //       window.removeEventListener("resize", handleResize);
-    //     };
-    //   }, []);
+        // Удаляем обработчик события при размонтировании компонента
+        return () => {
+          window.removeEventListener("resize", handleResize);
+        };
+      }, []);
     
     return (
         <div className="techIcons">
-            <Marquee gradient gradientColor={"#161616"} >
+            <Marquee gradient={gradient} gradientColor={"#161616"} >
             {tech.map((item: techList) => (
                 <div className="techIcon" key={item.name}>
                     <svg xmlns="http://www.w3.org/2000/svg"

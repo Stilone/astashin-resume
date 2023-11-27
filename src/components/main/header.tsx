@@ -16,7 +16,6 @@ export const Header = () => {
           className="post"
           repeat={Infinity}
         />
-        {/* <p className="post">Front-End developer</p> */}
         <LinkIcons />
     </div>
     )

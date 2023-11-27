@@ -15,8 +15,6 @@ export const typingMock = [
     2000,
     'Developer',
     2000,
-    'Level 80 Elf',
-    2000,
     'Frontend Engineer',
     2000,
     ]
