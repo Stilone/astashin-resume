@@ -1,17 +1,29 @@
+import { motion } from "framer-motion";
 import { icons } from "../../../../__mock__/mock-icons";
 import { IconList } from "../../../../__types__/globalTypes";
 import "./linkIcons.scss";
 
 export const LinkIcons = () => {
+    const handleLinkClick = (link: string) => {
+        const confirmResult = window.confirm("Перейти по ссылке?");
+        if (confirmResult) {
+            window.location.href = link;
+        }
+    };
+
     return (
         <div className="linkIcons">
             {icons.map((item: IconList) => (
-                <a href={item.link} key={item.name} className="linkIcon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
-                        <path d={item.img} fill="#E5E5E5"/>
-                    </svg>
-                </a>
+                <div className="linkIcon" key={item.name}>
+                    <motion.div
+                        className="icon"
+                        whileHover={{ scale: 1.1 }} // Увеличение при наведении
+                        whileTap={{ scale: 0.9 }}   // Уменьшение при клике
+                        onClick={() => handleLinkClick(item.link)}
+                        style={{ "--svg" : `url(${item.svg})` } as React.CSSProperties}
+                    />
+                </div>
             ))}
         </div>
-    )
+    );
 };
