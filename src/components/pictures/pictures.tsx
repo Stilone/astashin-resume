@@ -35,7 +35,7 @@ export const Pictures = () => {
               exit="exit"
               variants={index === 0 || index === 2? upVariants: downVariants}
               transition={{ duration: 0.6, ease: "easeInOut" }} 
-              src={`/astashin-resume/img/${item}.jpg`} className={item} alt={`picture-${index}`} />
+              src={`./astashin-resume/img/${item}.jpg`} className={item} alt={`picture-${index}`} />
           </Tilt>
         
         
