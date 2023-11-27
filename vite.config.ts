@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // ty for vite deploy https://github.com/ErickKS/vite-react-router
 export default defineConfig({
   plugins: [react()],
-  base: "/astashin-resume/"
+  base: ""
 })
