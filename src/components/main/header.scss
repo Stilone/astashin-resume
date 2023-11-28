@@ -19,7 +19,7 @@
         font-weight: 500;
         position: absolute;
         z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
-        top: 110px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+        top: 120px; /* Уменьшаем значение top, чтобы .post оказался под .name */
     }
 }
 }
@@ -45,7 +45,7 @@
             font-weight: 500;
             position: fixed;
             z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
-            top: 255px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+            top: 455px; /* Уменьшаем значение top, чтобы .post оказался под .name */
         }
     }
 }
@@ -71,7 +71,7 @@
             font-weight: 500;
             position: fixed;
             z-index: 3; /* Устанавливаем значение z-index меньше, чем у .name */
-            top: 235px; /* Уменьшаем значение top, чтобы .post оказался под .name */
+            top: 415px; /* Уменьшаем значение top, чтобы .post оказался под .name */
         }
     }
 }
@@ -96,7 +96,7 @@
             color: white;
             font-size: 30px;
             font-weight: 500;
-            margin-top: 60%;
+            top: 470px;
 
         }
     }

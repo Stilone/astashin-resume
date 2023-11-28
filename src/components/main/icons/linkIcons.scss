@@ -2,7 +2,7 @@
 .linkIcons {
     position: absolute;
     z-index: 3; /* Устанавливаем значение z-index меньше, чем у .post и .name */
-    top: 190px;
+    top: 220px;
     display: flex;
     .linkIcon {
         margin-right: 14px;
@@ -37,7 +37,7 @@
     .linkIcons {
         position: absolute;
         z-index: 3; /* Устанавливаем значение z-index меньше, чем у .post и .name */
-        top: 290px;
+        top: 350px;
         display: flex;
         .linkIcon {
             margin-right: 14px;
@@ -71,6 +71,8 @@
 
 @media only screen and (max-width: 450px) {
     .linkIcons {
+        position: absolute;
+        top: 290px;
         display: flex;
         .linkIcon {
             margin-right: 10px;
