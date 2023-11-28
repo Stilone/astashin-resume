@@ -1,4 +1,19 @@
-import { IconList, techList } from "../__types__/globalTypes.ts";
+import { IconList, imageList, techList } from "../__types__/globalTypes.ts";
+
+export const imageMock: imageList[] = [
+    {
+        name: "first",
+        link: "https://sun9-18.userapi.com/impg/qVS4ju0eBW8-uvOeVJtLDWkfJ6PrhC3p83vC6g/_n4Qn5od4Dc.jpg?size=905x905&quality=95&sign=9ba09037e7e32a0188e669b95d3a538a&type=album"
+    },
+    {
+        name: "second",
+        link: "https://sun9-80.userapi.com/impg/476pqycqhrdSHvkPhbLnKu9f-zu0EXj850hKFg/E9QihGyX4j0.jpg?size=1623x2160&quality=95&sign=3c83b8a64949587788bb08455a577067&type=album"
+    },
+    {
+        name: "third",
+        link: "https://sun9-63.userapi.com/impg/BnqmE47-C04dKpgkvfvROzY0nso41qNaKfhf9A/n58zyOIADE8.jpg?size=849x849&quality=95&sign=01682ed2beda33fc0fd079e3f766a94a&type=album"
+    },
+]
 
 export const typingMock = [
     'Front-End Developer',

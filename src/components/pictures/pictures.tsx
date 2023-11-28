@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import "./pictures.scss";
 import Tilt from 'react-parallax-tilt';
+import { imageMock } from "../../../__mock__/mock-icons";
 
 //Appreciate the awesome tilt library! Check it out here: https://www.npmjs.com/package/react-parallax-tilt
 
@@ -19,10 +20,10 @@ export const Pictures = () => {
 
   return (
     <div className="pictures-container">
-      {["first", "second", "third"].map((item, index) => (
+      {imageMock.map((item, index) => (
           <Tilt
-            key={item}
-            className={`pictures ${item}-image`}
+            key={item.name}
+            className={`pictures ${item.name}-image`}
             tiltReverse={true}
             glareEnable={true}
             glareMaxOpacity={0.5}
@@ -35,7 +36,7 @@ export const Pictures = () => {
               exit="exit"
               variants={index === 0 || index === 2? upVariants: downVariants}
               transition={{ duration: 0.6, ease: "easeInOut" }} 
-              src={`https://sun9-18.userapi.com/impg/qVS4ju0eBW8-uvOeVJtLDWkfJ6PrhC3p83vC6g/_n4Qn5od4Dc.jpg?size=905x905&quality=95&sign=9ba09037e7e32a0188e669b95d3a538a&type=album`} alt={`picture-${index}`} />
+              src={item.link} alt={`picture-${index}`} />
           </Tilt>
         
         
