@@ -35,7 +35,7 @@ export const Pictures = () => {
               exit="exit"
               variants={index === 0 || index === 2? upVariants: downVariants}
               transition={{ duration: 0.6, ease: "easeInOut" }} 
-              src={`/astashin-resume/img/${item}.jpg`} className={item} alt={`picture-${index}`} />
+              src={`https://sun9-18.userapi.com/impg/qVS4ju0eBW8-uvOeVJtLDWkfJ6PrhC3p83vC6g/_n4Qn5od4Dc.jpg?size=905x905&quality=95&sign=9ba09037e7e32a0188e669b95d3a538a&type=album`} alt={`picture-${index}`} />
           </Tilt>
         
         
