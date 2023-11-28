@@ -38,8 +38,6 @@ export const Pictures = () => {
               transition={{ duration: 0.6, ease: "easeInOut" }} 
               src={item.link} alt={`picture-${index}`} />
           </Tilt>
-        
-        
       ))}
     </div>
   );
