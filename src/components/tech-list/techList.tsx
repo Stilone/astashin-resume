@@ -4,7 +4,7 @@ import { techList } from "../../../__types__/globalTypes";
 import "./techList.scss"
 import { useEffect, useState } from "react";
 
-//Thanks for the fantastic text marquee library! Find it here: https://www.react-fast-marquee.com/documentation/#gradient
+//Thanks for the fantastic text marquee library! Find it here: https://github.com/justin-chu/react-fast-marquee
 type Gradient = true | false;
 
 export const TechList = () => {
