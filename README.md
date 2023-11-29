@@ -1,7 +1,9 @@
 # Astashin Resume v1.0.0
 
 Hello everyone! Welcome to my resume website.
+
 ``v1.0.0``  - It boasts a sleek, minimalist design with a few photos, useful links, my name, and current position. 🌟 In the future, the site will undergo changes, and I'll joyfully document all updates in this README for a history of progress. 🚀
+
 ``v2.0.0`` - [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7C6A2&random=false&width=435&lines=in+process+.+.+.)](https://git.io/typing-svg)
 
 ## Technologies Used:
