@@ -4,7 +4,9 @@ Hello everyone! Welcome to my resume website.
 
 ``v1.0.0``  - It boasts a sleek, minimalist design with a few photos, useful links, my name, and current position. 🌟 In the future, the site will undergo changes, and I'll joyfully document all updates in this README for a history of progress. 🚀
 
-``v2.0.0`` - [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=F7D2CA&random=false&width=435&lines=in+process+.+.+.)](https://git.io/typing-svg)
+``
+v2.0.0
+`` - [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=F7D2CA&random=false&width=435&lines=in+process+.+.+.)](https://git.io/typing-svg)
 
 ## Technologies Used:
 - **Vite** ⚡
