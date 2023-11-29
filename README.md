@@ -6,7 +6,7 @@ Hello everyone! Welcome to my resume website.
 
 ``123
 v2.0.0
-123`` - [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=F7D2CA&random=false&width=435&lines=in+process+.+.+.)](https://git.io/typing-svg)
+123`` <br />- [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=F7D2CA&random=false&width=435&lines=in+process+.+.+.)](https://git.io/typing-svg)
 
 ## Technologies Used:
 - **Vite** ⚡
