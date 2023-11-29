@@ -15,7 +15,7 @@ Hello everyone! Welcome to my resume website.
 - **TypeScript** 📝
 - **SCSS** 🎨
 
-## Additional Technologies:
+### Additional Technologies:
 - **[react-parallax-tilt](https://github.com/mkosir/react-parallax-tilt)** 🌀
 - **[react-type-animation](https://github.com/maxeth/react-type-animation)** ⌨️
 - **[react-fast-marquee](https://github.com/justin-chu/react-fast-marquee)** 🏃‍♂️
