@@ -1,4 +1,4 @@
-# Astashin Resume v1.0.0
+# Astashin Resume
 
 Hello everyone! Welcome to my resume website.
 
